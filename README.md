@@ -3,9 +3,11 @@
 SQL analysis of 141,870 NYPD arrest records from January 1 to June 30, 2026, covering when arrests happen, where, and for what categories of offense.
 
 **Tools:** SQLite (DB Browser for SQLite), SQL, Tableau Public
+
 **Dashboard:** [NYC Arrests, Jan-Jun 2026 (Tableau Public)](https://public.tableau.com/app/profile/mario.guerrero/viz/NYCArrestsJan-Jun2026/NYCArrestsJan-Jun2026)
 
 ![Dashboard screenshot](dashboard.png)
+
 **Queries:** `nypd_arrests_starter.sql`
 
 ## Data source
