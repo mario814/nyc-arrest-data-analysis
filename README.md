@@ -44,8 +44,8 @@ NYC Open Data, *NYPD Arrest Data (Year to Date)*, provided by the NYPD. The file
 - No duplicate arrest keys; every borough code was valid; no missing latitude values.
 - About 0.9% of arrests (1,295) had a blank, null, or undocumented offense-level code (blank, `(null)`, or `9`). I grouped these as Unknown and kept them in the data. A further 99 used the code `I`, which is not documented in the footnotes, so I kept it as its own group.
 - 24 arrests had no offense description and 5 had no law code.
-- 936 arrests carried placeholder law codes (LOC0000-type), which the dataset footnotes describe as violations not covered by the commonly enforced laws list.
-- Two offense category names (Criminal Mischief & Related Offenses; Offenses Against Public Administration) appear truncated in the source data.
+- 936 arrests carried placeholder law codes (LOC0000-type), which the dataset footnotes say represent violations of Transit Rules and Regulations and other such categories.
+- Two offense category names (Criminal Mischief & Related Of..., Offenses Against Public Admini...) appear truncated in the source data.
 
 ## Limitations
 
